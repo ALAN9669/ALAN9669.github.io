@@ -1,0 +1,6 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #007BFF; /* Azul, você pode ajustar a cor conforme necessário */
+    color: #fff; /* Cor do texto no corpo, para garantir que seja legível no fundo azul */
+}
