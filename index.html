@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: auto auto auto; 
+            gap: 20px; 
+        }
+
+        .grid-item {
+            padding: 50px;
+            border: 10px solid #ccc;
+            text-align: center;
+            background: #AFC;
+        }
+
+        .gride1 {
+            grid-column: 1/4;
+        }
+        .gride2 {
+            grid-column: 1/2;
+            grid-row: 2/6;
+         
+        }
+        .gride3 {
+            grid-column: 2/3;
+            grid-row: 2/6;
+        }
+        .gride4 {
+            grid-column: 3/4;
+            grid-row: 2/6;
+        }
+        .gride5 {
+            padding: 1px;
+            grid-column: 1/4;
+            grid-row: 9/9;
+
+        }
+        .gride6 {
+            padding: 1px;
+            grid-column: 1/2;
+            grid-row: 6/6;
+
+        }
+        .gride7 {
+            padding: 1px;
+            grid-column: 2/3;
+            grid-row: 6/6;
+
+        }
+        .gride8 {
+            padding: 1px;
+            grid-column: 3/4;
+            grid-row: 6/6;
+
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="grid-item gride1"><p>logo exibir noticias e busca </p></div>
+    <div class="grid-item gride2"><p>noticia 1</p></div>
+    <div class="grid-item gride3"><p>noticia 2</p></div>
+    <div class="grid-item gride4 "><p>noticia 3</p></div>
+    <div class="grid-item gride5"><p> parte inferior</p></div>
+    <div class="grid-item gride6"><p> botao1</p></div>
+    <div class="grid-item gride7"><p> botao 2</p></div>
+    <div class="grid-item gride8"><p> botao 3</p></div>
+  
+</body>
+</html>
